@@ -35,7 +35,8 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut", delay: 0.4 }}
       >If you want to find out more about me, please check out the links below.</motion.p>
-      <motion.ul className="text-neutral-100"
+      <motion.ul 
+        className="text-neutral-100 flex flex-wrap gap-4 mb-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut", delay: 0.5 }}
@@ -48,6 +49,8 @@ export default function Home() {
             <FaLinkedin size={20} />
             LinkedIn
           </a>
+        </li>
+        <li>
           <a 
             className="flex gap-x-2 items-center border-b border-neutral-600 pb-[2px] w-fit"
             href="https://github.com/EHD402"
@@ -55,6 +58,8 @@ export default function Home() {
             <FaGithub size={20} />
             Github
           </a>
+        </li>
+        <li>
           <a 
             className="flex gap-x-2 items-center border-b border-neutral-600 pb-[2px] w-fit"
             href="/ERIK HEDLUND CV.pdf"
@@ -64,6 +69,8 @@ export default function Home() {
             <FaFileAlt size={20} />
             Resume
           </a>
+        </li>
+        <li>
           <a 
             className="flex gap-x-2 items-center border-b border-neutral-600 pb-[2px] w-fit"
             href="mailto:erik.hedlund2@proton.me"
