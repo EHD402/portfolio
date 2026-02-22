@@ -1,0 +1,1 @@
+export const INTRO_TEXT = "Hej! I'm Erik Hedlund, a 22-year-old developer from Uppsala, Sweden. I study Software Sciences and love building web apps in my free time. I am also a big fan of ARPG:s ⚔️ and heavy metal 🤘."
